@@ -1,0 +1,73 @@
+body{
+    background-image: image(Course);
+}
+#test{
+    color: blue;
+    list-style: square;
+    display: inline;
+    padding: 900px;
+}
+#mainList{
+    color: blue;
+    list-style: none;
+}
+#heading{
+    color: rgb(7, 65, 107);
+    text-align: center;
+}
+.img{
+    border-radius: 15px;
+    margin-left: 25px;
+    top:-50px; 
+left:-35px; 
+display:block; 
+z-index:999; 
+cursor: pointer; 
+transition-property: all; 
+transition-duration: 0.3s; 
+transition-timing-function: ease; 
+} 
+#picList{
+    list-style: none;
+}
+/*change the number below to scale to the appropriate size*/ 
+.img:hover { 
+transform: scale(1.2); 
+
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+    transform: scale(1.2); 
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
