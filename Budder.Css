@@ -1,5 +1,5 @@
 body{
-    background-image: image(Course);
+    background-color: rgba(0, 0, 0, 0.407);
 }
 #test{
     color: blue;
@@ -15,24 +15,26 @@ body{
     color: rgb(7, 65, 107);
     text-align: center;
 }
-.img{
-    border-radius: 15px;
+#ProfilePic{
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
     margin-left: 25px;
     top:-50px; 
-left:-35px; 
-display:block; 
-z-index:999; 
-cursor: pointer; 
-transition-property: all; 
-transition-duration: 0.3s; 
-transition-timing-function: ease; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    transition-property: all; 
+    transition-duration: 0.3s; 
+    transition-timing-function: ease; 
 } 
 #picList{
     list-style: none;
 }
 /*change the number below to scale to the appropriate size*/ 
 .img:hover { 
-transform: scale(1.2); 
+transform: scale(0.8); 
 
 }
 
@@ -40,6 +42,7 @@ transform: scale(1.2);
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+    text-decoration: none;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -70,4 +73,17 @@ transform: scale(1.2);
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+  }
+  #RecentRounds{
+    text-decoration: underline;
+  }
+  #CurrentHandicap{
+    text-decoration: underline;
+  }
+  #AboutMyGolf{
+    text-align: right;
+    margin-right: 15%;
+  }
+  #AboutHeader{
+    text-align: center;
   }
