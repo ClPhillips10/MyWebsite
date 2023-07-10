@@ -1,6 +1,7 @@
-.Mainbody{
-    background-image: url(TheBoys.JPG);
-    background-size: 100%;
+#MainBody{
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
 }
 #test{
     color: blue;
